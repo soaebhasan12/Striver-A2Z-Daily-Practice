@@ -1,0 +1,7 @@
+🔥 Important Pattern Notice
+
+Reversal problems mostly use:
+
+Two pointers
+or
+Recursion with two indexes - Helper function with start and end arguments
