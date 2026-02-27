@@ -199,10 +199,10 @@ Checklist for every problem:
 
 # **LeetCode FREE questions**
 
-🟥 Must Revise (Very Important)
-🟧 Important
-🟨 Good Practice
-🟩 Optional (After confidence)
+* 🟥 Must Revise (Very Important)
+* 🟧 Important
+* 🟨 Good Practice
+* 🟩 Optional (After confidence)
 
 ---
 
