@@ -10,8 +10,8 @@ This repository contains my learning journey, including practice codes, concept 
 
 ###  [03 - `Basic Hashing`](https://chatgpt.com/share/69ad016e-bb8c-8005-8825-36f98d019cbb)
 
-###  [04 - `Sorting Techniques`]
-* [04 - `Sorting-I`](https://chatgpt.com/share/69ad247d-96e0-8005-8828-117ceb00f92e)
+###  [04 - `Sorting Techniques`]()
+* ### [A - `Sorting-I`](https://chatgpt.com/share/69ad247d-96e0-8005-8828-117ceb00f92e)
 
 
 <!-- DSA Prompt -->
