@@ -26,3 +26,29 @@ nums[i] may contain duplicate values.
 """
 
 
+class Solution:
+  def sortArray(self, nums, n):
+    
+    if n == 1:
+      return
+    
+    for i in range(n-1):
+      if nums[i] > nums[i+1]:
+        nums[i], nums[i+1] = nums[i+1], nums[i] 
+    
+    self.sortArray(nums, n-1)
+    
+  def recursiveBubbleSort(self, nums):
+    self.sortArray(nums, len(nums))
+    return nums
+  
+  
+obj = Solution()
+
+arr = [5,4,9,2,8,3,7,1,6]
+print("\nBefore Using Recursive Bubble Sort:")
+print(" ".join(map(str, arr)))
+
+output = obj.recursiveBubbleSort(arr)
+print("\After Using Recursive Bubble Sort:")
+print(" ".join(map(str, output)))
