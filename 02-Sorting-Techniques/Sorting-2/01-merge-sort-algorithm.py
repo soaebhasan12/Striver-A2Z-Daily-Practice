@@ -66,5 +66,5 @@ print("\nBefore Using Merge Sort:")
 print(" ".join(map(str, arr)))
 
 output = obj.mergeSort(arr)
-print("\nBefore Using Merge Sort:")
+print("\After Using Merge Sort:")
 print(" ".join(map(str, output)))
