@@ -1,5 +1,5 @@
 
-# 📝 `Largest Element Insight`
+# 📝 `Largest Element Insights`
 
 ## 1️⃣ 🧠 Core Idea
 
