@@ -1,4 +1,4 @@
-# 📘 Selection Sort — Key Insights (Quick Revision)
+ # 📘 Selection Sort — Key Insights (Quick Revision)
 
 ## 1️⃣ Core Idea
 
