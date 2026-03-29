@@ -84,9 +84,10 @@ Final:
 ---
 
 ## 5️⃣ Return Logic (Exam Trap 🚨)
-
+```
 👉 `i` = last index
 👉 answer =
+```
 
 ```
 i + 1
@@ -95,12 +96,12 @@ i + 1
 ---
 
 ## 6️⃣ Common Mistakes
-
-❌ using `i+1` while placing
+```
+❌ using 'i+1' while placing
 ❌ returning array instead of count
 ❌ forgetting sorted property
 ❌ off-by-one error (very common)
-
+```
 ---
 
 ## 7️⃣ Pattern Recognition (IMPORTANT 🔥)
