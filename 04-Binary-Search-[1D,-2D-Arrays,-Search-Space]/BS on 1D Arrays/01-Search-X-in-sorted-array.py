@@ -18,22 +18,48 @@ Explanation: The target integer 2 does not exist in nums so return -1
 
 # 1 - Implementation:
 
-nums = [-1,0,2,3,5,9,12]
-target = 2
+# nums = [-1,0,2,3,5,9,12]
+# target = 2
 
-low = 0 
-high = len(nums) - 1
+# low = 0 
+# high = len(nums) - 1
 
-while low <= high:
-  mid = (low + high) // 2
+# while low <= high:
+#   mid = (low + high) // 2
+  
+#   if target == nums[mid]:
+#     print(mid)
+#     break
+#   elif target > nums[mid]:
+#     low = mid + 1
+#   else:
+#     high = mid - 1
+
+# if high < low:
+#   print("-1")
+  
+  
+
+# 2 - Recursive Implementation:
+
+def BinarySearch(nums, low, high, target):
+  
+  if low > high:
+    return -1
+  
+  mid = ( low + high ) // 2
   
   if target == nums[mid]:
-    print(mid)
-    break
+    return mid
   elif target > nums[mid]:
-    low = mid + 1
+    return BinarySearch(nums, mid+1, high, target)
   else:
-    high = mid - 1
+    return BinarySearch(nums, low, mid-1, target)
+    
+nums = [-1,0,3,5,9,12]
+target = 9
 
-if high < low:
-  print("-1")
+low= 0
+high = len(nums) - 1
+
+print(BinarySearch(nums, low, high, target))
